@@ -1,0 +1,176 @@
+/********************************** General **********************************/
+.container-fluid {
+  padding: 0% 3%;
+}
+
+.light-green-bg {
+  background-color: #c3dd94;
+}
+
+.have-border-right {
+  border-right: solid 2px #604118;
+}
+
+.section-spaces {
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+.red-text {
+  color: #ff6c6c;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 4px #0000004b;
+}
+
+.weight-200 {
+  font-weight: 200;
+}
+/********************************** navbar **********************************/
+.Offer {
+  background-color: #ff6c6c;
+  color: #ffffff;
+  margin: 0;
+  padding: 1% 30%;
+}
+
+nav {
+  box-shadow: 0 7px 10px rgba(7, 7, 7, 0.2);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #604118;
+  padding: 10px 10px;
+  font-size: 1.6rem;
+}
+
+/********************************** switcher **********************************/
+.Language {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+.Language p {
+  font-size: 1.4rem;
+  margin: 10px 4px;
+  padding: 0;
+}
+
+/* Silder */
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px 15px;
+  width: 55px;
+  height: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 15%;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 26px;
+  left: 2px;
+  bottom: -2px;
+  background-color: rgb(31, 30, 30);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 25%;
+}
+
+input:checked + .slider {
+  background-color: #ffffff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ffffff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* End of Silder */
+
+/********************************** the Introduction of the offer **********************************/
+#intro {
+  width: 100%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/* intro-description */
+#intro-description {
+  padding: 30px;
+}
+
+#intro-description h1 {
+  color: #604118;
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+#intro-description p {
+  font-size: 2.5rem;
+  color: #60411885;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  margin-bottom: 35px;
+}
+
+.btn-dark {
+  color: #604118;
+  background-color: #c3dd94;
+  border: 2px solid #604118;
+  border-radius: 0;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #604118;
+  border-color: #604118;
+}
+
+#intro-image img {
+  width: 100%;
+}

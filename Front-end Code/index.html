@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet" />
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
@@ -22,53 +22,143 @@
     <title>Dr Raw</title>
   </head>
   <body>
-    <!-- title -->
+    <!-- Title section-->
     <section id="title">
       <h2 class="Offer">FREE SHIPPING ON ORDERS OVER 500 L.E</h2>
-        <nav class="container-fluid navbar navbar-expand-lg navbar-light light-green-bg">
-          <a class="navbar-brand" href="">
-            <img src="..\Dr Raw Front End\images\Logo.png" alt="" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#footer">HOME</a></li>
-              <li class="nav-item"><a class="nav-link" href="#pricing">OFFER</a></li>
-              <li class="nav-item"><a class="nav-link" href="#cta">REVIEWS</a></li>
-              <li class="nav-item"><a class="nav-link" href="#cta">BEST SELLING PRODUCTS</a></li>
-              <div class="Language">
-                <p>EN</p>
+      <nav class="container-fluid navbar navbar-expand-lg navbar-light light-green-bg">
+        <a class="navbar-brand" href="#Home">
+          <img src="..\Dr Raw Front End\images\Logo.png" alt="Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#footer">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">OFFER</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cta">REVIEWS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cta">BEST SELLING PRODUCTS</a></li>
+            <div class="Language">
+              <p>EN</p>
               <label class="switch">
-                    <input type="checkbox" />
-                    <span class="slider"></span> </label
-                ></a>
-                <p>AR</p>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta"><img src="..\Dr Raw Front End\shopping-cart.svg" alt="" width="30px" /></a>
-              </li>
-            </ul>
-        </nav>
-      </div>
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+              <p>AR</p>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta"><img src="..\Dr Raw Front End\images\shopping-cart.svg" alt="" width="30px" /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      <div class="row">
-        <div id="intro" class="row container-fluid light-green-bg section-spaces">
-          <div id="intro-description" class="container-fluid col-lg-6 col-md-6 order-lg-1 order-md-1 order-sm-2">
-            <h1 class="weight-200 text-shadow">Buy 3 products with
-              only <span class="red-text underline">200 L.E</span> and let
-              your skin glow</h1>
-              <p>Natural skincare & Haircare
-                Products with Premium quality
-                & powerful Effect</p>
-        
-                <button class="download-buton btn btn-dark btn-lg" type="button">Order Now</button>
+      <div id="intro" class="row container-fluid section-spaces light-green-bg">
+        <div id="intro-description" class="col-lg-6 container-fluid order-lg-1 order-md-1 order-sm-2">
+          <h1 class="weight-200 text-shadow">Buy 3 products with only <span class="red-text underline">200 L.E</span> and let your skin glow</h1>
+          <p>Natural skincare & Haircare Products with Premium quality & powerful Effect</p>
+          <button class="download-buton btn btn-dark btn-lg" type="button">Order Now</button>
+        </div>
+        <div id="intro-image" class="col-lg-6 order-lg-2 order-md-2 order-sm-1">
+          <img src="..\Dr Raw Front End\images\200 offer 3.png" alt="200 Offer Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="Offer">
+      <div id="Sale"><h1>SALE</h1></div>
+      <div id="Container-Offers">
+        <div class="row">
+          <div class="col-lg-3">
+            <img id="N" src="..\Dr Raw Front End\images\Products images\nail.svg" alt="nail-care-img" />
           </div>
-          <div id="intro-image" class="col-lg-6 col-md-6 order-lg-2 order-md-2 order-sm-1">
-            <img src="..\Dr Raw Front End\images\200 offer 3.png" alt="200 Offer Image">
+          <div class="col-lg-1">
+            <h1>+</h1>
+          </div>
+          <div class="col-lg-3">
+            <img id="EB" src="..\Dr Raw Front End\images\Products images\eyebrow.svg" alt="eybrow-img" />
+          </div>
+          <div class="col-lg-1">
+            <h1>+</h1>
+          </div>
+          <div class="col-lg-4">
+            <img id="CF" src="..\Dr Raw Front End\images\Products images\charcoal facemask.png" alt="charcoal-facemask-image" />
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <p>Nail Care</p>
+            <p>Cuticle Oil</p>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3">
+            <p>EyeBrow</p>
+            <p>Oil</p>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4">
+            <p>Face</p>
+            <p>Mask</p>
+          </div>
+        </div>
+      </div>
+      <h3>Nail Care Cuticle Oil + EyeBrow</h3>
+      <h3>Oil + Face Mask =</h3>
+      <h2 class="red-text">200 L.E</h2>
+    </section>
+
+    <!-- Product Details -->
+    <section id="product-details">
+      <!-- Nail Care -->
+      <div class="light-green-bg row product-padding">
+        <div id="top-img" class="col-lg-6 left left-img"></div>
+        <div class="col-lg-6 right">
+          <h2 class="underline">Nail Care oil</h2>
+          <h4>DESCRIPTION:</h4>
+          <p>
+            The oil works to soften, lengthen and strengthen nails. <br />
+            This oil maintains the smoothness of the skin as it softens and softens the skin around the nails, so it provides the nails with an elegant surrounding, in addition to that, it does not damage the nail polish, and the nails can benefit from the oil with the polish.
+          </p>
+          <p>It reduces dead skin around the nails</p>
+          <p><span class="head-details">Ingredients:</span> jojoba oil , sweet almond oil, olive oil, vitamin E, lavender oil, Lemon oil</p>
+          <p><span class="head-details">Size:</span> 4 ml, suitable for daily use once at bedtime for about 2 months</p>
+          <p><span class="head-details">Size:</span> 4 ml, suitable for daily use once at bedtime for about 2 months</p>
+        </div>
+      </div>
+
+      <!-- EyeBrow -->
+      <div class="row product-padding">
+        <div class="col-lg-6 left">
+          <h2 class="underline">Eyebrow</h2>
+          <h4>DESCRIPTION:</h4>
+          <p>It is a mixture of natural pure oils that thicken the eyebrows , which contains nourishing oils and stimulate blood circulation to help grow hair again</p>
+          <p><span class="head-details">Ingredients:</span> Castor oil, Jojoba oil, Rosemary oil, Eucalyptus oil, Peppermint oil, Vit. E</p>
+          <p><span class="head-details">Size:</span> 10 ml, suitable for daily use once at bedtime for about 2-3 months</p>
+          <p><span class="head-details">Effect:</span> 10 ml, suitable for daily use once at bedtime for about 2-3 months</p>
+        </div>
+        <div id="middle-img" class="col-lg-6 right rigth-img"></div>
+      </div>
+
+      <!-- Charcoal Facemask -->
+      <div class="light-green-bg row product-padding" style="padding-bottom: 30px">
+        <div id="bottom-img" class="col-lg-6 left left-img"></div>
+        <div class="col-lg-6 right">
+          <h2 class="underline">Charcoal Facemask</h2>
+          <h4>DESCRIPTION:</h4>
+          <p>
+            Activated Charcoal Mask works on:<br />
+            Cleansing the skin and purifying cells deeply by getting rid of dead skin and absorbing toxins from the surface of the skin <br />
+            Treating oily skin by treating the level of oils secreted by cells <br />
+            Reducing the size of large pores in the skin, which results in the appearance of pimples <br />
+            Get rid of blackheads in a short time
+          </p>
+          <p><span class="head-details">Ingredients:</span> Activated charcoal , Kaolin clay , Bentonite clay</p>
+          <p><span class="head-details">Size:</span> 125 gram, suitable for use 1-2 per week for about 15 times</p>
+          <p><span class="head-details">Effect:</span> 125 gram, suitable for use 1-2 per week for about 15 times</p>
+        </div>
+        <button class="download-buton btn btn-dark btn-lg" type="button">Order Now</button>
       </div>
     </section>
   </body>

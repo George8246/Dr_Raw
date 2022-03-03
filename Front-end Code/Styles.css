@@ -15,6 +15,33 @@ LightYellow: #FFFAE0; Review Secion
   padding: 0% 3%;
 }
 
+.bottom-l {
+  border-bottom-left-radius: 40px;
+}
+
+.bottom-r {
+  border-bottom-right-radius: 40px;
+}
+
+.top-l {
+  border-top-left-radius: 40px;
+}
+
+.top-r {
+  border-top-right-radius: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.all-radius {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
 .light-green-bg {
   background-color: #c3dd94;
 }
@@ -86,12 +113,13 @@ nav .navbar-brand p {
 
 nav .navbar-brand .tail {
   font-size: 28px;
+  margin: 0;
   opacity: 0.6;
 }
 
 nav .navbar-brand .head {
   font-size: 48px;
-  margin: 0;
+  margin: 10px 0 0;
   padding: 0;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -182,8 +210,6 @@ input:checked + .slider:before {
 /********************************** the Introduction of the offer **********************************/
 #intro {
   width: 100%;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
 
 /* intro-description */
@@ -233,7 +259,6 @@ input:checked + .slider:before {
   color: #604118;
   font-weight: 400;
   padding-bottom: 5%;
-  text-align: center;
 }
 
 #Container-Offers {
@@ -342,7 +367,7 @@ input:checked + .slider:before {
   text-align: center;
 }
 
-#product-details .left-img {
+.left-img {
   border-top-left-radius: 35%;
   border-bottom-right-radius: 35%;
   border-top-right-radius: 4%;
@@ -384,9 +409,95 @@ input:checked + .slider:before {
   background-size: cover;
 }
 
-#product-details button {
+/********************************** Review Section **********************************/
+#Review {
+  background-color: #fffae0;
+  color: #604118;
+  padding-bottom: 100px;
+}
+
+#Review h1 {
+  font-weight: 600;
+  font-size: 320%;
+  margin: 4% 27% auto;
+  line-height: 1.5;
+}
+
+#main-reviews div {
+  padding: 0% 2%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#Review .light-green-bg button {
   width: 135px;
   margin-top: 50px;
   margin-left: 40%;
   margin-right: 45%;
+}
+
+#testimonials #carouselExampleIndicators .carousel-inner img {
+  margin-bottom: 3%;
+  width: 30%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../Dr\ Raw\ Front\ End/images/Arrows/left-arrow.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../Dr\ Raw\ Front\ End/images/Arrows/right-arrow.png");
+}
+
+.carousel-indicators button {
+  height: 12px;
+  width: 12px;
+  background-color: #604118;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.6;
+  border: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* quality images */
+.Quailty {
+  padding: 10px 9% 70px;
+}
+
+.Quailty .row img {
+  width: 100%;
+}
+
+.Quailty-details {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+/********************************** Best Selling Products **********************************/
+#Best-Selling {
+  color: #604118;
+  text-align: center;
+  padding-bottom: 4%;
+  border-bottom: #604118 3px solid;
+}
+
+#Best-Selling h1 {
+  font-weight: 600;
+  font-size: 320%;
+  margin: 6% 29% 4%;
+}
+
+.Products-container {
+  padding: 0 10% 4%;
+}
+
+.Products {
+  padding: 2%;
+}
+
+.Products img {
+  border: #604118 5px solid;
+  box-shadow: 4px 4px 12px 2px rgba(0, 0, 255, 0.2);
 }
